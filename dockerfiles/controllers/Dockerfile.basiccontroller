@@ -34,3 +34,5 @@ RUN chmod +x /entrypoint.sh
 
 # ENTRYPOINT ["/entrypoint.sh", "$env_jupyter_port"]
 ENTRYPOINT ["/entrypoint.sh", "8888"]
+
+
